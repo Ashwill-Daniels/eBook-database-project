@@ -9,6 +9,7 @@
 # Import the SQLite3 module.
 import sqlite3
 
+
 # A class that holds methods that execute all required SQL statements.
 class Sequel():
 
@@ -193,6 +194,7 @@ Quantity:\t{book_info[3]}"""
         finally:
             # Close the database.
             database.close()
+
 
 # An instance of the Sequel class
 sql_object = Sequel()
