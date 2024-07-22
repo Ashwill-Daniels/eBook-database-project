@@ -311,11 +311,11 @@ Please enter a number: """))
                     if new_qty > 0:
                         break
                     else:
-                        print("Please enter an apropriate amount.")
+                        print("Please enter an appropriate amount.")
 
                 # Catch any Value errors.        
                 except ValueError:
-                    print("Please enter an apropriate amount.")
+                    print("Please enter an appropriate amount.")
 
             sql_object.update_book_quantity(new_qty, book_title)
                 
